@@ -2,7 +2,6 @@
 Count halvings
 Программка для расчета максимального количества монет и халвингов
 
-
 Download file halving.cpp
 
 compile: 
@@ -23,3 +22,4 @@ $ ./halving
 
 Получите список данных по халвингу
 
+![logo](https://github.com/dngrcoin/halving/blob/master/halving.png)
