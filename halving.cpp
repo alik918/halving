@@ -17,7 +17,11 @@ int main()
 	cout << "Введите количество предполагаемых халвингов : "; 
     cin >> a; 
     cout << "Введите размер уменьшения награды в %       : "; 
-    cin >> b; 
+    cin >> b;
+    cout << "     Before Halving " <<   endl;
+    cout << " Награда за блок составляет     = " << nSubsidy << endl;
+    cout << " Количество монет до 1 халвинга = " << Maxmoney << endl;
+    cout << " Количество монет всего         = " << Maxmoney << endl;
     setlocale(0, "");
     for (i = HalvingInterval; i <= HalvingInterval*a; i += HalvingInterval) //начальное значение, конечное-количество халвингов, шаг цикла.
     {
